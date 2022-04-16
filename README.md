@@ -1,7 +1,7 @@
-See https://github.com/mguinness/IdentityManagerUI for the main project.
-This project is a fork that upgrades to .NET6 , Bootstrap 5 and Datatables 5
+Build using [IdentityManagerUI](https://github.com/mguinness/IdentityManagerUI) check it out.
+This project is a fork with upgrades to .NET6 , Bootstrap 5 and Datatables 5
 
-## getting started WITHOUT .NET6 local development installed
+## Getting started WITHOUT .NET6 local development installed
 * Clone repository
 * Instal docker https://docs.docker.com/get-docker/
 * go to the directory of the project
@@ -12,7 +12,7 @@ docker-compose up
 * login with Admin account
 * Navigate to Users or Roles to see it in action
 
-## getting started WITH .NET6 local development installed
+## Getting started WITH .NET6 local development installed
 
 * Clone repository
 * Open in visual studio. Ensure you have .net 6, asp net core 6 and identity components added (might all be from the C#/net core 6 web development workload).
