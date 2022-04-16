@@ -1,0 +1,41 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>
+         This is a simple User Management and Authentication API. Which can create, read, update and delete users, as well as roles.
+    </p>
+    <p> It has inbuild users, that you could use for testing purposes.</p>
+   <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">User</th>
+      <th scope="col">Password</th>
+      <th scope="col">Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>user@test.com</td>
+      <td>password</td>
+      <td>User</td>
+    </tr>
+    <tr>
+      <td>admin@test.com</td>
+      <td>password</td>
+      <td>Admin</td>
+    </tr>
+  </tbody>
+</table>
+    <p>Build using:
+      <a class="badge bg-secondary" href="https://github.com/dotnet/aspnetcore/tree/main/src/Identity/Core/src">ASP.NET Core Identity</a>
+       <a class="badge bg-secondary" href="https://github.com/dotnet/aspnetcore/tree/main/src/Identity/UI/src">ASP.NET Core Identity UI</a>
+       <a class="badge bg-secondary" href="https://github.com/mguinness/IdentityManagerUI">Identity UI Manager</a>
+      <a class="badge bg-secondary" href="https://getbootstrap.com/">Bootstrap 5</a>
+       <a class="badge bg-secondary" href="https://datatables.net/"> DataTables | Table plug-in for jQuery</a>
+    </p>
+    
+</div>
